@@ -13,6 +13,7 @@ header {
 h1 {
   text-align: center;
   font-size: 50px;
+  text-shadow: 1px 1px 10px gray;
 }
 
 h2 {
@@ -23,12 +24,23 @@ a:link:hover {
   color: red;
 }
 
-.mainwindow{
+.mainwindow {
   background: red;
   width: 500px;
   height: 600px;
   position: absolute;
   left: 50%;
   top: 55%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+}
+
+.NumberBtn_area{
+  background: blue;
+  width: 400px;
+  height: 600px;
+}
+
+.btn_num {
+  width: 50px;
+  height: 50px;
 }
