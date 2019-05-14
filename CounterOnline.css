@@ -1,0 +1,9 @@
+*{
+  font-family: Consolas,Arial;
+}
+
+header{
+  background: red;
+  width: 500px;
+  height: auto;
+}
