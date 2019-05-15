@@ -20,9 +20,6 @@
   </header>
 
   <div class="mainwindow">
-    <div class="C_show">
-
-    </div>
     <div class="Result_Show_area">
       <div id="result">
         10
@@ -30,18 +27,18 @@
     </div>
 
     <div class="NumberBtn_area">
-      <button class="btn_num" id="btn7">7</button>
-      <button class="btn_num" id="btn8">8</button>
-      <button class="btn_num" id="btn9">9</button>
-      <button class="btn_num" id="btn4">4</button>
-      <button class="btn_num" id="btn5">5</button>
-      <button class="btn_num" id="btn6">6</button>
-      <button class="btn_num" id="btn1">1</button>
-      <button class="btn_num" id="btn2">2</button>
-      <button class="btn_num" id="btn3">3</button>
-      <button class="btn_num" id="btn_dot">.</button>
-      <button class="btn_num" id="btn0">0</button>
-      <button class="btn_num" id="btn#">#</button>
+      <button class="btn_num" id="btn7" onclick="GetValue(1)">7</button>
+      <button class="btn_num" id="btn8" onclick="GetValue(1)">8</button>
+      <button class="btn_num" id="btn9" onclick="GetValue(1)">9</button>
+      <button class="btn_num" id="btn4" onclick="GetValue(1)">4</button>
+      <button class="btn_num" id="btn5" onclick="GetValue(1)">5</button>
+      <button class="btn_num" id="btn6" onclick="GetValue(1)">6</button>
+      <button class="btn_num" id="btn1" onclick="GetValue(1)">1</button>
+      <button class="btn_num" id="btn2" onclick="GetValue(1)">2</button>
+      <button class="btn_num" id="btn3" onclick="GetValue(1)">3</button>
+      <button class="btn_num" id="btn_dot" onclick="GetValue(1)">.</button>
+      <button class="btn_num" id="btn0" onclick="GetValue(0)">0</button>
+      <button class="btn_num" id="btn#" onclick="GetValue(1)">#</button>
     </div>
 
     <div class="Calculate_area">
@@ -50,7 +47,7 @@
       <button class="btn_calculate" id="btnM">X</button>
       <button class="btn_calculate" id="btnC">/</button>
       <button class="btn_calculate" id="btnAC">AC</button>
-      <button class="btn_calculate" id="btnE">=</button>
+      <button class="btn_calculate" id="btnE" onclick="GetValue('equal')">=</button>
     </div>
   </div>
 

@@ -44,6 +44,7 @@ button {
   /* border: 2px solid gray; */
   border: none;
   background: rgb(150, 207, 153);
+  outline: none;
 }
 
 #link_btn:hover {
@@ -60,7 +61,7 @@ button {
 
 /*-------------------*/
 .mainwindow {
-  background: red;
+  background: rgb(199, 74, 74);
   width: 500px;
   height: 600px;
   position: absolute;
@@ -68,27 +69,38 @@ button {
   top: 55%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
+  box-shadow: 0 0 15px black;
 }
 
 /*-------------------*/
 .NumberBtn_area {
   position: absolute;
-  background: blue;
+  background: rgb(188, 201, 142);
   width: 360px;
   height: 450px;
   /* bottom: -1px; */
   top: 140px;
   left: 10px;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 5px
 }
 
 .btn_num {
   /* font-family:  */
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: 12px;
   /* margin-right: 20px; */
   margin-left: 10px;
   width: 100px;
-  height: 100px;
+  height: 95px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  outline: none;
+}
+
+.btn_num:active {
+  box-shadow: 0px 0px 5px black;
 }
 
 /*-------------------*/
@@ -96,16 +108,19 @@ button {
   position: absolute;
   width: 100px;
   /* height: 80px; */
-  background: green;
-  bottom: 10px;
+  /* background: green; */
+  bottom: 5px;
   right: 20px;
 }
 
 .btn_calculate {
   margin-bottom: 15px;
   width: 100px;
-  height: 60px;
+  height: 61px;
   font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  outline: none;
 }
 
 /*-------------------*/
@@ -113,14 +128,16 @@ button {
   padding-right: 10px;
   position: absolute;
   top: 20px;
-  right: 10px;
-  background: gray;
-  width: 470px;
+  right: 20px;
+  /* background: rgb(188,201,142); */
+  background: #e3dfd9;
+  width: 450px;
   height: 100px;
   text-align: right;
   font-size: 80px;
   /* margin: auto; */
   /* margin-top: 10px; */
+  border-radius: 5px;
 }
 
 /*---------------------*/
