@@ -1,6 +1,7 @@
 body {
   font-family: Consolas, Arial;
   background: rgba(189, 191, 204, 0.6);
+  outline: none;
 }
 
 header {
@@ -10,6 +11,7 @@ header {
   margin: auto;
 }
 
+/*-------------------*/
 h1 {
   text-align: center;
   font-size: 50px;
@@ -20,10 +22,43 @@ h2 {
   text-align: center;
 }
 
-a:link:hover {
-  color: red;
+/*-------------------*/
+a:link {
+  color: white;
+  text-decoration: none;
 }
 
+a:link:hover {}
+
+/*-------------------*/
+button {
+  cursor: pointer;
+}
+
+/*-------------------*/
+#link_btn {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  /* border: 2px solid gray; */
+  border: none;
+  background: rgb(150, 207, 153);
+}
+
+#link_btn:hover {
+  border-bottom: 2px solid red;
+  box-shadow: 0px 0px 10px gray;
+  transition: border .4s;
+}
+
+#link_btn:active {
+  outline: none;
+  transform: translate(0, 2px);
+  border: none;
+}
+
+/*-------------------*/
 .mainwindow {
   background: red;
   width: 500px;
@@ -32,15 +67,60 @@ a:link:hover {
   left: 50%;
   top: 55%;
   transform: translate(-50%, -50%);
+  border-radius: 10px;
 }
 
-.NumberBtn_area{
+/*-------------------*/
+.NumberBtn_area {
+  position: absolute;
   background: blue;
-  width: 400px;
-  height: 600px;
+  width: 360px;
+  height: 450px;
+  /* bottom: -1px; */
+  top: 140px;
+  left: 10px;
 }
 
 .btn_num {
-  width: 50px;
-  height: 50px;
+  /* font-family:  */
+  font-size: 30px;
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
 }
+
+/*-------------------*/
+.Calculate_area {
+  position: absolute;
+  width: 100px;
+  /* height: 80px; */
+  background: green;
+  bottom: 10px;
+  right: 20px;
+}
+
+.btn_calculate {
+  margin-bottom: 15px;
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+}
+
+/*-------------------*/
+.Result_Show_area {
+  padding-right: 10px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background: gray;
+  width: 470px;
+  height: 100px;
+  text-align: right;
+  font-size: 80px;
+  /* margin: auto; */
+  /* margin-top: 10px; */
+}
+
+/*---------------------*/
