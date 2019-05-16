@@ -22,7 +22,7 @@
   <div class="mainwindow">
     <div class="Result_Show_area">
       <div id="result">
-        -1235467890
+        0
       </div>
     </div>
 
@@ -42,11 +42,11 @@
     </div>
 
     <div class="Calculate_area">
-      <button class="btn_calculate" id="btnP">+</button>
-      <button class="btn_calculate" id="btnS">-</button>
-      <button class="btn_calculate" id="btnM">X</button>
-      <button class="btn_calculate" id="btnC">/</button>
-      <button class="btn_calculate" id="btnAC">AC</button>
+      <button class="btn_calculate" id="btnP" onclick="GetValue('+')">+</button>
+      <button class="btn_calculate" id="btnS" onclick="GetValue('-')">-</button>
+      <button class="btn_calculate" id="btnM" onclick="GetValue('X')">X</button>
+      <button class="btn_calculate" id="btnC" onclick="GetValue('/')">/</button>
+      <button class="btn_calculate" id="btnAC" onclick="GetValue('AC')">AC</button>
       <button class="btn_calculate" id="btnE" onclick="GetValue('equal')">=</button>
     </div>
   </div>
